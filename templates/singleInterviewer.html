@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/singleInterviewer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <button class="homeLink" type="button" >
+            <a href="/interviewer">Back to Interviewer Scheduling</a>
+        </button>
+
+        <h1>See Your openings</h1> 
+        <div id="slots2">
+            {{range  .}}
+                <div>
+                    {{.Name}}<br>
+                    {{.Date}}<br>
+                    {{.Hour}}<br>
+                </div>
+            {{end}}
+        </div>
+    
+    
+        <button class="homeLink" type="button" >
+            <a href="/" role="button">Home</a>
+        </button>
+        
+    </div>
+   
+</body>
+</html>

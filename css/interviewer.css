@@ -1,0 +1,91 @@
+
+
+body{
+    background: rgba(0, 0, 0, 0.829);
+
+}
+
+#mainContainer {
+    width:40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: radial-gradient( #419ec5, #f3d3b1);
+}
+
+#interviewerForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#interviewerForm > * {
+    margin: 10px;
+}
+
+
+
+#linkDiv:hover {
+    background-color:white;
+    color: rgb(69, 69, 219);
+}
+
+#homeLink {
+    border: 2px solid azure;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: inherit;
+    height:inherit;
+    margin: 20px;
+}
+
+#homeLink a {
+
+    text-decoration: none;
+    color:black;
+
+
+}
+#homeLink a:hover {
+    color:white;
+
+}
+
+#homeLink:hover {
+    color: white;
+    background-color: #f3d3b1;
+    border: 2px solid azure;
+    border-radius: 10px;
+}
+
+#submitButton {
+    width:30%;
+    height: 36px;
+    background-color: azure;
+    border-radius:10px;
+}
+.formItem {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid azure;
+    border-radius: 10px;
+}
+
+#form2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#form2 > * {
+    margin: 15px;
+}

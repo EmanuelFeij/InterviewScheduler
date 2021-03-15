@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/candidate.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Candidate Possible Dates</h1>
+        <form method="post" id="candidateForm">
+            <div class="formItem">
+                <label for="candidate">Candidate:</label><br>
+                <input type="text" name="candidate" placeholder="Enter your name" required><br>
+            </div>
+            <div class="formItem">
+                <label for="Day">Day:</label><br>
+                <input type="date" id="slotDay" name="Day" required><br>
+            </div>
+            <div class="formItem">
+                <label for="Hours">Choose a hour that you are available to interview:</label><br>
+                <select name="Hours" id="slotHours" required>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                </select>
+            </div>
+                <input type="submit" value="Add Date" id="submitButton">
+            
+        </form>
+
+        <h2>Or Only See YourOpenings</h2>
+        <form method="post" id="form2">
+
+                <label for="candidate">Candidate:</label>
+                <input type="text" name="candidateForm2" placeholder="Enter your name" required>
+
+            <input type="submit" value="See Your Openings" id="submitButton">
+        </form>
+
+
+
+        <button id="homeLink" type="button" >
+            <a href="/" role="button">Home</a>
+        </button>
+</div>
+</body>
+</html>

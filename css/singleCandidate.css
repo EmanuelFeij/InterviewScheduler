@@ -1,0 +1,67 @@
+
+
+body{
+
+    background: rgba(0, 0, 0, 0.829);
+
+}
+
+
+#mainContainer {
+    width:40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: radial-gradient( #419ec5, #f3d3b1);
+}
+
+
+.homeLink {
+    border: 2px solid azure;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: inherit;
+    height:inherit;
+    margin: 20px;
+}
+
+.homeLink a {
+
+    text-decoration: none;
+    color:black;
+
+}
+.homeLink a:hover {
+    color:white;
+
+}
+
+.homeLink:hover {
+    color: white;
+    background-color: #f3d3b1;
+    border: 2px solid azure;
+    border-radius: 10px;
+}
+
+
+
+#slots2 {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 0.8fr 0.8fr ;
+    
+
+}
+
+#slots2 > *{
+    border-radius: 10px;
+    margin:10px;
+    border: 2px solid white;
+    padding: 10px;
+    background:#c78640;
+    color: white;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Interview Scheduler</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Interview Schedulerer</h1>
+        <ul>
+            <li><a href="/candidate">Candidate</a></li>
+            <li><a href="/interviewer">Interviewer</a></li>
+        </ul>
+
+        <h2>Schedule Interviews</h2>
+        <div id="interviews">
+            {{range .}}
+            <div>
+                {{.}}
+            </div>
+        {{end}}
+        </div>
+         
+    </div>
+
+
+</body>
+</html>
